@@ -10,4 +10,10 @@ FactoryGirl.define do
     rationale "Some more Content"
     user
   end
+
+  factory :post_from_other_user, class: "Post" do
+    date Date.yesterday
+    rationale "Some more Content by other user"
+    non_authorized_user
+  end
 end
