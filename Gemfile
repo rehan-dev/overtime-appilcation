@@ -46,5 +46,7 @@ gem 'administrate', '~> 0.3.0'
 gem 'bourbon'
 # pundit for permissions
 gem 'pundit', '~> 1.1'
+# sms service
+gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
