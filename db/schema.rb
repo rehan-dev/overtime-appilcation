@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20170217192941) do
     t.datetime "updated_at",                                                null: false
     t.integer  "user_id"
     t.integer  "status",                                        default: 0
-    t.decimal  "overtime_request",               precision: 10, default: 0
+    t.decimal  "overtime_request",     precision: 10, scale: 2, default: 0.0
     t.index ["user_id"], name: "index_posts_on_user_id", using: :btree
   end
 
