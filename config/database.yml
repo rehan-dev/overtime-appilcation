@@ -5,16 +5,17 @@
 #
 # Ensure the MySQL gem is defined in your Gemfile
 #   gem 'mysql2'
+
 #
 # And be sure to use new-style password hashing:
 #   http://dev.mysql.com/doc/refman/5.7/en/old-client.html
 #
 default: &default
-  adapter: mysql2
-  encoding: utf8
+  adapter: postgresql
+  encoding: unicode
   pool: 5
-  username: root
-  password: 0300rehan
+  username: rehan
+  password: 
   host: localhost
 
 development:
