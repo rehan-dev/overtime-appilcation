@@ -17,6 +17,7 @@ default: &default
   username: rehan
   password: 0300rehan
   host: 127.0.0.1
+  port: 5432
 
 development:
   <<: *default
