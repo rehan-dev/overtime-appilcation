@@ -14,10 +14,7 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: rehan
-  password: 0300rehan
-  host: 127.0.0.1
-  port: 5432
+  host: localhost
 
 development:
   <<: *default
