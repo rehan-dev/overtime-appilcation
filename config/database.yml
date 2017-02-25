@@ -15,8 +15,8 @@ default: &default
   encoding: unicode
   pool: 5
   username: rehan
-  password:
-  host: localhost
+  password: 0300rehan
+  host: 127.0.0.1
 
 development:
   <<: *default
